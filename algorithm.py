@@ -98,7 +98,7 @@ train_dataset.groupby('hair')['hair'].count().sort_values(ascending=False).plot(
 
 print("\n Number of people having various hair length in Test dataset:")
 print("======================\n")
-test_dataset.groupby('hair')['hair'].count().sort_values(ascending=False).plot(kind = 'bar', color = 'plasma')
+test_dataset.groupby('hair')['hair'].count().sort_values(ascending=False).plot(kind = 'bar', color = 'deeppink')
 
 
 print("\n Number of people have/haven't beard in Train dataset:")
